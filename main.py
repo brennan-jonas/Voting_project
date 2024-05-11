@@ -1,5 +1,5 @@
 from gui import ID, VoteMenu, CandidateMenu, TotalVotes
-from PyQt5.QtWidgets import *
+from PyQt6.QtWidgets import *
 import sys
 if __name__ == '__main__':
     app = QApplication(sys.argv)
@@ -11,4 +11,4 @@ if __name__ == '__main__':
     id_widget.show()
     vote_menu.hide()
 
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
