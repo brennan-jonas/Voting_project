@@ -8,7 +8,6 @@ if __name__ == '__main__':
     id_widget = ID(vote_menu)
     candidate_menu = CandidateMenu(vote_menu, total_votes, id_widget)
     vote_menu.candidate_menu = candidate_menu
-    id_widget.show()
-    vote_menu.hide()
+    vote_menu.show()
 
     sys.exit(app.exec())
