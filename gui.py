@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import *
+from PyQt6.QtWidgets import *
 import logic
 
 class ID(QWidget):
